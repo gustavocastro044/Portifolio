@@ -55,14 +55,14 @@ export const Projects = () =>{
         </ListaOpcoes>
         <AreaProjetos>
           <ListaProjetos>
-            <ProjetoExpecifico linkProjeto='https://github.com/gustavocastro044/Controle-financas' active ={projetoAtivo} id='2' imagem ={'../assets/Financas.png'} />
-            <ProjetoExpecifico linkProjeto='https://github.com/gustavocastro044/Portifolio' active ={projetoAtivo} id='4' imagem ={'../assets/Portifolio.png'} />
-            <ProjetoExpecifico linkProjeto='https://github.com/gustavocastro044/Medicenter' active ={projetoAtivo} id='4' imagem ={'../assets/Medicenter.png'} />
-            <ProjetoExpecifico linkProjeto='https://github.com/gustavocastro044/DevsFood' active ={projetoAtivo} id='3' imagem ={'../assets/DevsFood.png'} />
-            <ProjetoExpecifico  active ={projetoAtivo} id='0' imagem ={'../assets/EmBreve.png'} />
-            <ProjetoExpecifico active ={projetoAtivo} id='1' imagem ={'../assets/EmBreve.png'} />
-            <ProjetoExpecifico active ={projetoAtivo} id='1' imagem ={'../assets/EmBreve.png'} />
-            <ProjetoExpecifico active ={projetoAtivo} id='1' imagem ={'../assets/EmBreve.png'} />
+            <ProjetoExpecifico linkProjeto='https://github.com/gustavocastro044/Controle-financas' active ={projetoAtivo} id='2' imagem ={'./../assets/Financas.png'} />
+            <ProjetoExpecifico linkProjeto='https://github.com/gustavocastro044/Portifolio' active ={projetoAtivo} id='4' imagem ={'./../assets/Portifolio.png'} />
+            <ProjetoExpecifico linkProjeto='https://github.com/gustavocastro044/Medicenter' active ={projetoAtivo} id='4' imagem ={'./../assets/Medicenter.png'} />
+            <ProjetoExpecifico linkProjeto='https://github.com/gustavocastro044/DevsFood' active ={projetoAtivo} id='3' imagem ={'./../assets/DevsFood.png'} />
+            <ProjetoExpecifico  active ={projetoAtivo} id='0' imagem ={'./../assets/EmBreve.png'} />
+            <ProjetoExpecifico active ={projetoAtivo} id='1' imagem ={'./../assets/EmBreve.png'} />
+            <ProjetoExpecifico active ={projetoAtivo} id='1' imagem ={'./../assets/EmBreve.png'} />
+            <ProjetoExpecifico active ={projetoAtivo} id='1' imagem ={'./../assets/EmBreve.png'} />
             
           </ListaProjetos>
         </AreaProjetos>

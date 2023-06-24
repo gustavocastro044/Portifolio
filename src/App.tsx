@@ -60,7 +60,7 @@ useEffect(()=>{
   }
 
   const BaixarCurriculo = () =>{
-    const fileUrl = '/assets/curriculo/GustavoCV.pdf'
+    const fileUrl = './assets/curriculo/GustavoCV.pdf'
     window.open(fileUrl, '_blank')
   }
 
@@ -105,7 +105,7 @@ useEffect(()=>{
             </Introducao>
             <DownloadItem  onClick={BaixarCurriculo}>Baixar CV</DownloadItem>
           </PageBodyHome>
-          <Foto src='/assets/FotoCinza.png' alt='Gustavo foto'/>
+          <Foto src='./assets/FotoCinza.png' alt='Gustavo foto'/>
         </PageBody>
         <PageBodyAbout ref={sobreRef} >
             <AboutMe/>
