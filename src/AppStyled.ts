@@ -56,7 +56,7 @@ export const PageBody = styled.section`
   gap: 100px;
   padding: 60px 60px 0px 60px;
   @media (max-width: 1025px) {
-    background-image: url(/assets/FotoCinza.png);
+    background-image: url(assets/FotoCinza.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;

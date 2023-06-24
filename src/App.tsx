@@ -95,7 +95,7 @@ useEffect(()=>{
         </Header>
         <PageBody >
           <PageBodyHome ref={inicioRef} >
-            <Titulo>Olá, eu sou Gustavo</Titulo>
+            <Titulo>Olá, eu sou GustavoS</Titulo>
             <Resumo>{titulo}</Resumo>
             <Introducao className="digitando" >
             Tenho 23 anos e busco uma oportunidade profissional na área de desenvolvimento web.
