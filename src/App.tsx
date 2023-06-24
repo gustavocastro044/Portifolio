@@ -95,7 +95,7 @@ useEffect(()=>{
         </Header>
         <PageBody >
           <PageBodyHome ref={inicioRef} >
-            <Titulo>Olá, eu sou GustavoS</Titulo>
+            <Titulo>Olá, eu sou Gustavo</Titulo>
             <Resumo>{titulo}</Resumo>
             <Introducao className="digitando" >
             Tenho 23 anos e busco uma oportunidade profissional na área de desenvolvimento web.
@@ -105,7 +105,7 @@ useEffect(()=>{
             </Introducao>
             <DownloadItem  onClick={BaixarCurriculo}>Baixar CV</DownloadItem>
           </PageBodyHome>
-          <Foto src='./assets/FotoCinza.png' alt='Gustavo foto'/>
+          <Foto src="./assets/fotocinza.png" alt='Gustavo foto'/>
         </PageBody>
         <PageBodyAbout ref={sobreRef} >
             <AboutMe/>
