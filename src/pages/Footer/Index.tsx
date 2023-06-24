@@ -4,7 +4,6 @@ import {
   Container,
   IntroducaoFooter,
   Titulo,
-  Introducao,
   BolinhaArea,
   Bolinha,
   ContainerNav,
@@ -19,8 +18,6 @@ export const Footer = () =>{
     <Container>
       <IntroducaoFooter>
         <Titulo>Gustavo de Castro</Titulo>
-        <Introducao>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-        Delectus error non quia impedit velit eaque corrupti facere vitae voluptatibus facilis.</Introducao>
         <BolinhaArea>
           <Bolinha></Bolinha>
           <Bolinha></Bolinha>

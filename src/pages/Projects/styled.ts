@@ -1,14 +1,4 @@
-import styled, {keyframes} from "styled-components";
-
-const animacaoProjetos = keyframes`  
-  from{
-    transition: .2s;
-    transform: translate3d(0, -30px, 0);
-  }
-  to{
-    transform: translate3d(0, 0, 0)
-  }
-`;
+import styled from "styled-components";
 
 
 
@@ -77,20 +67,8 @@ gap: 20px;
 justify-content: center;
 grid-template-columns: repeat(4, 1fr);
 `
-export const ProjetosExpecificos = styled.li<{ active?:string, id?:string }>`
-display: ${props => props.active === props.id || props.active === "0"  ? 'block' : 'none'};
-list-style-type: none;
-max-width: 100%;
-height: 100%;
-animation: ${animacaoProjetos} .6s ease-in-out forwards;
-`
-export const ImagemProjeto = styled.img`
-max-width: 100%;
-height: 100%;
-border-radius: 4px;
-cursor: pointer;
-`
 export const LinkProjects = styled.a`
+cursor: pointer;
 background-color: #222;
 text-decoration: none;
 justify-self: center;

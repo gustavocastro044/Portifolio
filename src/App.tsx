@@ -87,7 +87,7 @@ useEffect(()=>{
             <ListaItem><ListaRef onClick={() => sobreRef.current.scrollIntoView({ behavior: "smooth" })}>Sobre</ListaRef></ListaItem>
             <ListaItem><ListaRef onClick={() => servicosRef.current.scrollIntoView({ behavior: "smooth" })}>Serviços</ListaRef></ListaItem>
             <ListaItem><ListaRef onClick={() => resumoRef.current.scrollIntoView({ behavior: "smooth" })}>Resumo</ListaRef></ListaItem>
-            <ListaItem><ListaRef onClick={() => portifolioRef.current.scrollIntoView({ behavior: "smooth" })}>Portifolio</ListaRef></ListaItem>
+            <ListaItem><ListaRef onClick={() => portifolioRef.current.scrollIntoView({ behavior: "smooth" })}>Projetos</ListaRef></ListaItem>
             <ListaItem><ListaRef onClick={() => contatoRef.current.scrollIntoView({ behavior: "smooth" })}>Contato</ListaRef></ListaItem>
           </Lista>
           <ListaResumida onClick={ativarMenu} ref={ativaMenu} className="fa-solid fa-bars"/>

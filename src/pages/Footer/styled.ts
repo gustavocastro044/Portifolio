@@ -19,12 +19,6 @@ export const Titulo = styled.h1`
   margin-bottom: 15px;
   font-family: 'Berkshire Swash', cursive;
 `
-export const Introducao = styled.p`
-  color: #707070;
-  font-size: 1,4rem;
-  margin-bottom: 1rem;
-  position: relative;
-`
 export const BolinhaArea = styled.div`
   display: flex;
   gap: 10px;

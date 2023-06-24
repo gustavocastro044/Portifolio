@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import ProjetoExpecifico from '../../Components/ProjetoExpecifico'
 
 import { 
   Container,
@@ -12,10 +13,9 @@ import {
   AreaProjetos,
   AreaOpcoes,
   ListaProjetos,
-  ProjetosExpecificos,
-  ImagemProjeto,
   LinkProjects
 } from './styled'
+
 
 
 export const Projects = () =>{
@@ -29,13 +29,17 @@ export const Projects = () =>{
       
     }
   }
+  const handleClick = () =>{
+    const linkrepositorio = "https://github.com/gustavocastro044?tab=repositories"
+    window.open(linkrepositorio, '_blank')
+  }
 
 
   return(
     <Container>
       <IntroducaoProjetos>
         <Titulo>Projetos</Titulo>
-        <Introducao>Professional Profile - there is All About me</Introducao>
+        <Introducao>Perfil Profissional - Principais projetos</Introducao>
         <BolinhaArea>
           <Bolinha></Bolinha>
           <Bolinha></Bolinha>
@@ -51,18 +55,19 @@ export const Projects = () =>{
         </ListaOpcoes>
         <AreaProjetos>
           <ListaProjetos>
-            <ProjetosExpecificos active ={projetoAtivo} id='3'><ImagemProjeto src='../assets/DevsFood.png' alt='WebSite para comercio gastronomico'/></ProjetosExpecificos>
-            <ProjetosExpecificos active ={projetoAtivo} id='2'><ImagemProjeto src='../assets/Financas.png'  alt='Sistema de finanças'/></ProjetosExpecificos>
-            <ProjetosExpecificos active ={projetoAtivo} id='4'><ImagemProjeto src='../assets/Portifolio.png' alt='WebSite para introdução pessoal'/></ProjetosExpecificos>
-            <ProjetosExpecificos active ={projetoAtivo} id='4'><ImagemProjeto src='../assets/Medicenter.png' alt='estrutura de um website'/></ProjetosExpecificos>
-            <ProjetosExpecificos active ={projetoAtivo} id='0'><ImagemProjeto src='../assets/EmBreve.png' alt='Em breve'/></ProjetosExpecificos>
-            <ProjetosExpecificos active ={projetoAtivo} id='1'><ImagemProjeto src='../assets/EmBreve.png' alt='Em breve'/></ProjetosExpecificos>
-            <ProjetosExpecificos active ={projetoAtivo} id='1'><ImagemProjeto src='../assets/EmBreve.png' alt='Em breve'/></ProjetosExpecificos>
-            <ProjetosExpecificos active ={projetoAtivo} id='1'><ImagemProjeto src='../assets/EmBreve.png' alt='Em breve'/></ProjetosExpecificos>
+            <ProjetoExpecifico linkProjeto='https://github.com/gustavocastro044/Controle-financas' active ={projetoAtivo} id='2' imagem ={'../assets/Financas.png'} />
+            <ProjetoExpecifico linkProjeto='https://github.com/gustavocastro044/Portifolio' active ={projetoAtivo} id='4' imagem ={'../assets/Portifolio.png'} />
+            <ProjetoExpecifico linkProjeto='https://github.com/gustavocastro044/Medicenter' active ={projetoAtivo} id='4' imagem ={'../assets/Medicenter.png'} />
+            <ProjetoExpecifico linkProjeto='https://github.com/gustavocastro044/DevsFood' active ={projetoAtivo} id='3' imagem ={'../assets/DevsFood.png'} />
+            <ProjetoExpecifico  active ={projetoAtivo} id='0' imagem ={'../assets/EmBreve.png'} />
+            <ProjetoExpecifico active ={projetoAtivo} id='1' imagem ={'../assets/EmBreve.png'} />
+            <ProjetoExpecifico active ={projetoAtivo} id='1' imagem ={'../assets/EmBreve.png'} />
+            <ProjetoExpecifico active ={projetoAtivo} id='1' imagem ={'../assets/EmBreve.png'} />
+            
           </ListaProjetos>
         </AreaProjetos>
       </AreaOpcoes>
-      <LinkProjects>Mais sobre projetos</LinkProjects>
+      <LinkProjects onClick={handleClick}>Todos projetos</LinkProjects>
     </Container>
   )
 }

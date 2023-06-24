@@ -264,8 +264,8 @@ export const Resume = () =>{
             </CuriosidadeExpecifica>
             <CuriosidadeExpecifica>
               <ClasseFunFacts className="fa-solid fa-users"/>
-              <DataCuriosidade>21/06/2021</DataCuriosidade>
-              <TextoCuriosidade>Rede 7</TextoCuriosidade>
+              <DataCuriosidade>Python</DataCuriosidade>
+              <TextoCuriosidade>Bons conhecimentos com a linguagem</TextoCuriosidade>
             </CuriosidadeExpecifica>
           </ListaCuriosidades>
         </CuriosidadesArea>
