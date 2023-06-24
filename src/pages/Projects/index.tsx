@@ -58,7 +58,7 @@ export const Projects = () =>{
             <ProjetoExpecifico linkProjeto='https://github.com/gustavocastro044/Controle-financas' active ={projetoAtivo} id='2' imagem ={'./assets/financas.png'} />
             <ProjetoExpecifico linkProjeto='https://github.com/gustavocastro044/Portifolio' active ={projetoAtivo} id='4' imagem ={'./assets/portifolio.png'} />
             <ProjetoExpecifico linkProjeto='https://github.com/gustavocastro044/Medicenter' active ={projetoAtivo} id='4' imagem ={'./assets/medicenter.png'} />
-            <ProjetoExpecifico linkProjeto='https://github.com/gustavocastro044/DevsFood' active ={projetoAtivo} id='3' imagem ={'./assets/devsFood.png'} />
+            <ProjetoExpecifico linkProjeto='https://github.com/gustavocastro044/DevsFood' active ={projetoAtivo} id='3' imagem ={'./assets/devsfood.png'} />
             <ProjetoExpecifico  active ={projetoAtivo} id='0' imagem ={'./assets/embreve.png'} />
             <ProjetoExpecifico active ={projetoAtivo} id='1' imagem ={'./assets/embreve.png'} />
             <ProjetoExpecifico active ={projetoAtivo} id='1' imagem ={'./assets/embreve.png'} />
