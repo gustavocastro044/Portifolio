@@ -27,7 +27,7 @@ export const AboutMe = () =>{
           <Bolinha></Bolinha>
         </BolinhaArea>
       </IntroducaoPessoal>
-      <FotoPessoa src='./Assets/FotoCinza.png'/>
+      <FotoPessoa src='../assets/fotocinza.png'/>
       <Conteudo>
         <SobreMin>
           <TituloSobre>Sou Gustavo</TituloSobre>
