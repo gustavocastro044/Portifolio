@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 
 export const Container = styled.div`
-
 `
 export const AreaIntroducaoServicos = styled.div`
   margin: 30px 0;
@@ -38,6 +37,10 @@ export const Bolinha = styled.span`
 export const MeusServicos = styled.div`
   color: white;
   padding: 60px;
+  @media (max-width: 360px) {
+    padding: 0px;
+    width: 250px;
+  }
 `
 export const Lista = styled.ul`
   display: flex;
@@ -92,6 +95,9 @@ export const ListaItem = styled.li`
     height: 100%;
     border-bottom: 2px solid red;
     border-left: 2px solid red;
+  }
+  @media (max-width: 360px) {
+    width: 300px;
   }
 `
 export const ClasseItem = styled.i`

@@ -28,6 +28,9 @@ export const Container = styled.div`
   justify-content: center;
   padding: 40px;
   padding-bottom: 60px;
+  @media (max-width: 360px) {
+  width: 330px;
+  }
 `
 
 export const Titulo = styled.h1`
@@ -61,6 +64,9 @@ export const IntroducaoPessoal = styled.div`
   grid-column: 1/-1;
   text-align: center;
   color: white;
+  @media (max-width: 360px) {
+    width: 300px;
+  }
 `
 export const FotoPessoa = styled.img`
   animation: ${animacaoFoto} .2s ease-in-out forwards;
@@ -81,6 +87,11 @@ export const FotoPessoa = styled.img`
     width: 600px;
     height: 500px;
   }
+
+  @media (max-width: 360px) {
+    width: 250px;
+    height: 300px;
+  }
 `
 
 export const Conteudo = styled.div`
@@ -92,11 +103,19 @@ export const Conteudo = styled.div`
   @media (max-width: 1025px) {
     grid-column: 1/-1;
   }
+  @media (max-width: 360px) {
+  width: 330px;
+  align-items: center;
+  }
 `
-export const SobreMin = styled.div`
+export const SobreMim = styled.div`
   display: grid;
   grid-column: 1/-1;
   grid-template-columns: 1fr 1fr;
+  @media (max-width: 360px) {
+    width: 300px;
+  }
+
 `
 export const TituloSobre = styled.h1`
   font-size: 2.3rem;
@@ -124,12 +143,21 @@ export const ConteudoInfo = styled.div`
   grid-column: 1/-1;
   gap: 15px;
   align-items: center;
+
+  @media (max-width: 360px) {
+  grid-template-columns: 1fr;
+  grid-column: 1/-1;
+  }
 `
 export const InfoExpecifica = styled.p`
   color: #dc3545;
   display: inline-block;
   padding-right: 15px;
   font-size: 1.2rem;
+  @media (max-width: 360px) {
+    width: 300px;
+  }
+  
 `
 
 export const ClasseExpecifica = styled.i`

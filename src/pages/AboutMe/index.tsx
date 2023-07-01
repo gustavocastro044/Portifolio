@@ -7,7 +7,7 @@ import { Container,
   IntroducaoPessoal,
   FotoPessoa,
   Conteudo,
-  SobreMin,
+  SobreMim,
   TituloSobre,
   TextoSobre,
   ConteudoInfo,
@@ -29,7 +29,7 @@ export const AboutMe = () =>{
       </IntroducaoPessoal>
       <FotoPessoa src='./assets/fotocinza.png'/>
       <Conteudo>
-        <SobreMin>
+        <SobreMim>
           <TituloSobre>Sou Gustavo</TituloSobre>
           <TextoSobre>Tenho 23 anos e sou formado em Analise e Desenvolvimento de Sistemas.
             Atualmente não trabalho e não tenho experiencias profissionais direcionadas a programação!
@@ -42,7 +42,7 @@ export const AboutMe = () =>{
             nessa area que me identifiquei bastante.
 
             </TextoSobre>
-        </SobreMin>
+        </SobreMim>
         <ConteudoInfo>
           <InfoExpecifica><ClasseExpecifica className='fa-solid fa-calendar-days'/>Data de Nascimento: 13/09/1999</InfoExpecifica>
           <InfoExpecifica><ClasseExpecifica className='fa-solid fa-location-dot'/>Endereço: Travessa Carolina Ferni São Paulo </InfoExpecifica>

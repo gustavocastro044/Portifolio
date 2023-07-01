@@ -26,6 +26,9 @@ export const Container = styled.div`
   max-width: 1300px;
   margin: 0 auto;
   background-color: black;
+  @media (max-width: 360px) {
+  max-width: 360px;
+  }
 `
 export const Header = styled.div`
   position: fixed;
@@ -41,8 +44,8 @@ export const Header = styled.div`
   @media (max-width: 1025px) {
     width: 100%;
   }
-  @media (max-width: 986px) {
-    width: 100%;
+  @media (max-width: 360px) {
+  width: 330px;
   }
 `
 
@@ -61,6 +64,9 @@ export const PageBody = styled.section`
     background-size: contain;
     background-position: right;
   }
+  @media (max-width: 360px) {
+  width: 330px;
+  }
 `
 
 export const ListaArea = styled.nav`
@@ -71,6 +77,9 @@ export const PageBodyHome = styled.div`
   display: grid;
   gap: 50px;
   padding-top: 90px;
+  @media (max-width: 360px) {
+    width: 300px;
+  }
 `
 
 
@@ -184,6 +193,10 @@ export const PrimeiroNome = styled.h1`
   color: #ff5d56;
   font-size: 2.5rem;
   font-family: 'Berkshire Swash', cursive;
+  @media (max-width: 360px) {
+    font-size: 30px;
+  }
+  
 `
 export const Sobrenome = styled.span`
   color: white;
@@ -197,6 +210,9 @@ export const PageBodyServices = styled.section`
   background-color: #151515;
   margin-top: -30px;
   padding: 60px;
+  @media (max-width: 360px) {
+    padding: 30px;
+  }
 `
 
 export const PageBodyprojects = styled.section`

@@ -62,6 +62,10 @@ export const AreaResumo = styled.div`
   justify-content: center;
   gap: 10px;
   align-items: start;
+  @media (max-width: 360px) {
+    width: 330px;
+    grid-template-columns: 1fr;
+  }
 `
 export const TituloExperiencia = styled.h2`
   font-family: 'Poppins';
@@ -93,6 +97,10 @@ export const ResumoExpecifico = styled.div<{ active?:string, id?:string }>`
     left: 30px;
     display: inline-block;
   }
+  @media (max-width: 360px) {
+    width: 260px;
+    padding: 10px;
+  }
 `
 export const DataResumo = styled.span`
   color: #dc3546;
@@ -113,6 +121,10 @@ export const Lista = styled.ul`
   cursor: pointer;
   margin-top: 20px;
   justify-content: center;
+  @media (max-width: 360px) {
+    width: 260px;
+    padding: 10px;
+  }
 `
 export const ItemExperiencia = styled.li<{ active?:string, id?:string }>`
   list-style-type: none;
@@ -133,6 +145,12 @@ export const TituloEducacao = styled.h2`
   margin-bottom: 30px;
   grid-column: 2;
   grid-row: 1;
+@media (max-width: 360px) {
+    display: flex;
+    width: 200px;
+    grid-column: 1;
+    grid-row: 3;
+  }
 `
 export const EducacaoArea = styled.div`
 
@@ -152,6 +170,11 @@ export const EducacaoExpecifica = styled.div<{ active?:string, id?:string }>`
     left: 30px;
     display: inline-block;
   }
+  @media (max-width: 360px) {
+    width: 260px;
+    padding: 10px;
+  }
+  
 `
 export const DataEducacao = styled.span`
   color: #dc3546;
@@ -181,6 +204,10 @@ export const MeusCursos = styled.div`
   padding: 30px;
   gap: 30px;
   justify-content: center;
+  @media (max-width: 360px) {
+    grid-template-columns: 1fr;
+  }
+  
 `
 export const MinhasSkills = styled.div`
   display: grid;
@@ -204,6 +231,9 @@ export const SkillExpecifica = styled.div`
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   margin-top: 10px;
+  @media (max-width: 360px) {
+    grid-template-columns: 1fr;
+  }
 `
 export const NomeSkill = styled.h3`
 font-size: 1.5rem;
