@@ -46,7 +46,7 @@ export const AboutMe = () =>{
         <ConteudoInfo>
           <InfoExpecifica><ClasseExpecifica className='fa-solid fa-calendar-days'/>Data de Nascimento: 13/09/1999</InfoExpecifica>
           <InfoExpecifica><ClasseExpecifica className='fa-solid fa-location-dot'/>Endereço: Travessa Carolina Ferni São Paulo </InfoExpecifica>
-          <InfoExpecifica><ClasseExpecifica className='fa-brands fa-whatsapp'/>Telefone:(11) 994330340</InfoExpecifica>
+          <InfoExpecifica><ClasseExpecifica className='fa-brands fa-whatsapp'/>Telefone:(11) 963299171</InfoExpecifica>
           <InfoExpecifica><ClasseExpecifica className='fa-solid fa-envelope'/>Email: gustavo.castro044@gmail.com</InfoExpecifica>
 
         </ConteudoInfo>
